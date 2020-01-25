@@ -1,0 +1,68 @@
+{
+  "name": "@rogal/addon-react-translate",
+  "version": "1.0.0-beta.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "lint:js": "front-linter js  -- --presets=javascript,react --fix",
+    "lint:ts": "front-linter js  -- --presets=typescript,react --fix",
+    "lint": "npm run lint:js && npm run lint:ts"
+  },
+  "keywords": [],
+  "author": "Gabriel García Seco",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "@rogal/react-translate": "^1.0.0.beta.12"
+  },
+  "dependencies": {
+    "@storybook/addons": "5.2.8",
+    "@storybook/components": "5.2.8",
+    "@storybook/core-events": "5.2.8",
+    "@storybook/api": "5.2.8"
+  },
+  "devDependencies": {
+    "@rogal/front-linter": "2.5.1",
+    "@rogal/react-translate": "1.0.0-beta.12",
+    "@rollup/plugin-multi-entry": "^3.0.0",
+    "@types/node": "^13.1.8",
+    "babel-loader": "^8.0.6",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "react": "^16.12.0",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "rollup": "^1.27.12",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "serve": "^11.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "3.7.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/@rogal/front-linter/typescript-react-eslint.js"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.{js, jsx}": [
+      "npm run lint:js -- --fix --staged",
+      "git add"
+    ],
+    "src/**/*.{tsx, ts}": [
+      "npm run lint:ts -- --fix --staged",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
