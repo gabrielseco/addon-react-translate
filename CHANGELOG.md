@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 ### BREAKING CHANGES
 
-## [1.0.0-beta.1] - 2020-01-25
+## [1.0.0-beta.2] - 2020-01-25
 
 ### Added
   - Addon for react-translate

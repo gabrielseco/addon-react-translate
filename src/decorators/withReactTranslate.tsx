@@ -5,7 +5,7 @@ import { addons, makeDecorator } from '@storybook/addons';
 
 import { EVENTS } from './../shared';
 
-export default makeDecorator({
+const withReactTranslate = makeDecorator({
   name: 'withReactTranslate',
   parameterName: 'reactTranslate',
   skipIfNoParametersOrOptions: true,
@@ -30,3 +30,5 @@ export default makeDecorator({
     );
   }
 });
+
+export default withReactTranslate;
