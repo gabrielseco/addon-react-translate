@@ -13,10 +13,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 ### BREAKING CHANGES
 
+## [1.0.0-beta.5] - 2020-06-10
+### BREAKING CHANGES
+### Changed
+- Works with react-translate-beta.15 
+
 ## [1.0.0-beta.4] - 2020-06-07
 
 ### Fixed
-Fixed build
+- Fixed build
 
 
 ## [1.0.0-beta.3] - 2020-01-25
