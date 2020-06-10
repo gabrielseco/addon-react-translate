@@ -10,7 +10,7 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rm -rf dist && rollup -c",
     "watch": "rollup -cw",
     "lint:js": "front-linter js  -- --presets=javascript,react --fix",
     "lint:ts": "front-linter js  -- --presets=typescript,react --fix",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.8.0",
-    "@rogal/react-translate": "^1.0.0.beta.12"
+    "@rogal/react-translate": "^1.0.0.beta.15"
   },
   "dependencies": {
     "@storybook/addons": "5.2.8",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@rogal/front-linter": "2.5.1",
-    "@rogal/react-translate": "1.0.0-beta.12",
+    "@rogal/react-translate": "1.0.0-beta.15",
     "@rollup/plugin-multi-entry": "^3.0.0",
     "@types/node": "^13.1.8",
     "babel-loader": "^8.0.6",

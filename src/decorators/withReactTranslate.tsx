@@ -17,16 +17,14 @@ const withReactTranslate = makeDecorator({
 
     channel.emit(EVENTS.SEND_OPTIONS, { ...options, language });
 
-    const providerValue = {
+    const i18n = {
       fallbackLng: options.fallbackLng,
       languages: options.languages,
       language: language,
       translations: options.translations
     };
     return (
-      <TranslateProvider value={providerValue}>
-        {getStory(context)}
-      </TranslateProvider>
+      <TranslateProvider i18n={i18n}>{getStory(context)}</TranslateProvider>
     );
   }
 });
