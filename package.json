@@ -14,37 +14,41 @@
     "watch": "rollup -cw",
     "lint:js": "front-linter js  -- --presets=javascript,react --fix",
     "lint:ts": "front-linter js  -- --presets=typescript,react --fix",
-    "lint": "npm run lint:js && npm run lint:ts"
+    "lint": "npm run lint:js && npm run lint:ts",
+    "release:prepare": "shipjs prepare",
+    "release:trigger": "shipjs trigger"
   },
   "keywords": [],
   "author": "Gabriel García Seco",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.8.0",
-    "@rogal/react-translate": "^1.0.0.beta.15"
+    "react": "^16.13.1",
+    "@rogal/react-translate": "^1.0.0.beta.18"
   },
   "dependencies": {
-    "@storybook/addons": "5.2.8",
-    "@storybook/components": "5.2.8",
-    "@storybook/core-events": "5.2.8",
-    "@storybook/api": "5.2.8"
+    "@storybook/addons": "6.0.4",
+    "@storybook/components": "6.0.4",
+    "@storybook/core-events": "6.0.4",
+    "@storybook/api": "6.0.4"
   },
   "devDependencies": {
-    "@rogal/front-linter": "2.5.1",
-    "@rogal/react-translate": "1.0.0-beta.15",
+    "@rogal/front-linter": "3.0.0-beta.5",
+    "@rogal/react-translate": "1.0.0-beta.18",
     "@rollup/plugin-multi-entry": "^3.0.0",
     "@types/node": "^13.1.8",
     "babel-loader": "^8.0.6",
+    "eslint-import-resolver-typescript": "^2.2.0",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
-    "react": "^16.8.0",
+    "react": "^16.13.1",
     "react-docgen-typescript-loader": "^3.6.0",
     "rollup": "^1.27.12",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-typescript2": "^0.25.3",
     "serve": "^11.2.0",
+    "shipjs": "^0.20.1",
     "ts-loader": "^6.2.1",
-    "typescript": "3.7.3"
+    "typescript": "3.9.7"
   },
   "eslintConfig": {
     "extends": [

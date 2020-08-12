@@ -3,6 +3,7 @@ import multi from '@rollup/plugin-multi-entry';
 
 import pkg from './package.json';
 
+// eslint-disable-next-line import/no-default-export
 export default [
   {
     input: 'src/index.ts',
