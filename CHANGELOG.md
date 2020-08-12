@@ -1,7 +1,3 @@
-# [1.0.0-beta.6](https://github.com/gabrielseco/addon-react-translate/compare/1.0.0-beta.5...1.0.0-beta.6) (2020-08-12)
-
-
-
 # Change Log
 All notable changes to this project will be documented in this file.
 
@@ -16,6 +12,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 ### Removed
 ### BREAKING CHANGES
+
+
+## [1.0.0-beta.6] - 2020-08-12
+
+### BREAKING CHANGES
+
+### Changed
+- Update packages to work with storybook@6.0.0
 
 ## [1.0.0-beta.5] - 2020-06-10
 ### BREAKING CHANGES
