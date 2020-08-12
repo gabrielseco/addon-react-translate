@@ -1,3 +1,3 @@
-import withReactTranslate from './decorators/withReactTranslate';
+import { withReactTranslate } from './decorators/withReactTranslate';
 
 export { withReactTranslate };

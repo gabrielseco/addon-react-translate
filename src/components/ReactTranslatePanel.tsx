@@ -6,7 +6,7 @@ import { FORCE_RE_RENDER } from '@storybook/core-events';
 
 import { EVENTS } from './../shared';
 
-const ReactTranslatePanel = () => {
+export const ReactTranslatePanel = () => {
   const [languages, setLanguages] = React.useState([]);
   const [languageState, setLanguage] = React.useState('');
   useChannel({
@@ -37,7 +37,7 @@ const ReactTranslatePanel = () => {
           onChange={handleChange}
           size="flex"
         >
-          {languages.map(languageOption => (
+          {languages.map((languageOption) => (
             <option key={languageOption} value={languageOption}>
               {languageOption}
             </option>
@@ -47,5 +47,3 @@ const ReactTranslatePanel = () => {
     </Form>
   );
 };
-
-export default ReactTranslatePanel;
