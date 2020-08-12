@@ -13,6 +13,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 ### BREAKING CHANGES
 
+
+## [1.0.0-beta.6] - 2020-08-12
+
+### BREAKING CHANGES
+
+### Changed
+- Update packages to work with storybook@6.0.0
+
 ## [1.0.0-beta.5] - 2020-06-10
 ### BREAKING CHANGES
 ### Changed
