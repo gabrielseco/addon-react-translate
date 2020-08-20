@@ -1,4 +1,4 @@
-name: Ship js trigger
+name: build
 on:
   push:
     branches:
@@ -16,6 +16,7 @@ jobs:
         with:
           registry-url: "https://registry.npmjs.org"
       - run: npm install
+      - run: npm run lint
       - run: npm run release:trigger
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

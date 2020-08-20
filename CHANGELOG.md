@@ -1,7 +1,3 @@
-# [1.0.0](https://github.com/gabrielseco/addon-react-translate/compare/v1.0.0-beta.6...v1.0.0) (2020-08-20)
-
-
-
 # Change Log
 All notable changes to this project will be documented in this file.
 
@@ -17,6 +13,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 ### BREAKING CHANGES
 
+
+## [1.0.0] - 2020-08-20
+- Release it 🚀🚀🚀
 
 ## [1.0.0-beta.6] - 2020-08-12
 
