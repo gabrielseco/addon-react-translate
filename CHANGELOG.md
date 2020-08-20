@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### BREAKING CHANGES
 
 
+## [1.0.0] - 2020-08-20
+- Release it 🚀🚀🚀
+
 ## [1.0.0-beta.6] - 2020-08-12
 
 ### BREAKING CHANGES
