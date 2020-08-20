@@ -23,7 +23,7 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.13.1",
-    "@rogal/react-translate": "^1.0.0.beta.18"
+    "@rogal/react-translate": "1.0.0"
   },
   "dependencies": {
     "@storybook/addons": "6.0.4",
