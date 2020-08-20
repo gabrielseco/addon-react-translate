@@ -1,3 +1,7 @@
+# [1.0.0](https://github.com/gabrielseco/addon-react-translate/compare/v1.0.0-beta.6...v1.0.0) (2020-08-20)
+
+
+
 # Change Log
 All notable changes to this project will be documented in this file.
 
