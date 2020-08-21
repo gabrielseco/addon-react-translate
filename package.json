@@ -23,7 +23,7 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.13.1",
-    "@rogal/react-translate": "1.0.0"
+    "@rogal/react-translate": "1.0.1"
   },
   "dependencies": {
     "@storybook/addons": "6.0.16",
@@ -33,22 +33,22 @@
   },
   "devDependencies": {
     "@rogal/front-linter": "3.0.0-beta.6",
-    "@rogal/react-translate": "1.0.0",
-    "@rollup/plugin-multi-entry": "3.0.1",
+    "@rogal/react-translate": "1.0.1",
+    "@rollup/plugin-multi-entry": "4.0.0",
     "@types/node": "13.13.15",
     "babel-loader": "8.1.0",
     "eslint-import-resolver-typescript": "2.2.1",
-    "husky": "3.1.0",
-    "lint-staged": "9.5.0",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
     "react": "16.13.1",
     "react-docgen-typescript-loader": "3.7.2",
-    "rollup": "1.32.1",
-    "rollup-plugin-postcss": "2.9.0",
+    "rollup": "2.26.4",
+    "rollup-plugin-postcss": "3.1.5",
     "rollup-plugin-typescript2": "0.27.2",
     "serve": "11.3.2",
     "shipjs": "0.20.1",
-    "ts-loader": "6.2.2",
-    "typescript": "3.9.7"
+    "ts-loader": "8.0.2",
+    "typescript": "4.0.2"
   },
   "eslintConfig": {
     "extends": [
@@ -57,12 +57,10 @@
   },
   "lint-staged": {
     "src/**/*.{js, jsx}": [
-      "npm run lint:js -- --fix --staged",
-      "git add"
+      "npm run lint:js -- --fix --staged"
     ],
     "src/**/*.{tsx, ts}": [
-      "npm run lint:ts -- --fix --staged",
-      "git add"
+      "npm run lint:ts -- --fix --staged"
     ]
   },
   "husky": {
