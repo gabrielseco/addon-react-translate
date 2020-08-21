@@ -36,7 +36,7 @@
     "@rogal/react-translate": "1.0.0-beta.18",
     "@rollup/plugin-multi-entry": "3.0.1",
     "@types/node": "13.5.0",
-    "babel-loader": "8.0.6",
+    "babel-loader": "8.1.0",
     "eslint-import-resolver-typescript": "2.2.0",
     "husky": "3.1.0",
     "lint-staged": "9.5.0",
