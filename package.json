@@ -39,7 +39,7 @@
     "babel-loader": "8.1.0",
     "eslint-import-resolver-typescript": "2.2.1",
     "husky": "4.2.5",
-    "lint-staged": "10.2.12",
+    "lint-staged": "10.2.13",
     "react": "16.13.1",
     "react-docgen-typescript-loader": "3.7.2",
     "rollup": "2.26.5",
