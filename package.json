@@ -26,7 +26,7 @@
     "@rogal/react-translate": "1.0.1"
   },
   "dependencies": {
-    "@storybook/addons": "6.0.24",
+    "@storybook/addons": "6.0.25",
     "@storybook/components": "6.0.25",
     "@storybook/core-events": "6.0.25",
     "@storybook/api": "6.0.25"
