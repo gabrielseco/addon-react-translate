@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### BREAKING CHANGES
 
 
+## [1.0.1] - 2020-12-18
+- Update to React 17
+- Update to storybook 6
+
 ## [1.0.0] - 2020-08-20
 - Release it 🚀🚀🚀
 
