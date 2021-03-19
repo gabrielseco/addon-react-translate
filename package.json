@@ -1,7 +1,7 @@
 {
   "name": "@rogal/addon-react-translate",
   "version": "1.0.1",
-  "description": "",
+  "description": "> An addon for storybook to change language in your stories along with react-translate with ease",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
@@ -18,7 +18,9 @@
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger"
   },
-  "keywords": [],
+  "keywords": [
+    "storybook-addon"
+  ],
   "author": "Gabriel García Seco",
   "license": "MIT",
   "peerDependencies": {
