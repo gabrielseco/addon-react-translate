@@ -26,10 +26,10 @@
     "@rogal/react-translate": "1.0.2"
   },
   "dependencies": {
-    "@storybook/addons": "6.1.11",
-    "@storybook/components": "6.1.11",
-    "@storybook/core-events": "6.1.11",
-    "@storybook/api": "6.1.11"
+    "@storybook/addons": "6.5.16",
+    "@storybook/components": "6.5.16",
+    "@storybook/core-events": "6.5.16",
+    "@storybook/api": "6.5.16"
   },
   "devDependencies": {
     "@rogal/front-linter": "3.0.0-beta.8",
